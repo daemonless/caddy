@@ -1,0 +1,27 @@
+#!/bin/sh
+
+mkdir -p /config /data
+
+# Create default Caddyfile if not exists
+if [ ! -f /config/Caddyfile ]; then
+    cat > /config/Caddyfile << 'EOF'
+# Caddy configuration - https://caddyserver.com/docs/caddyfile
+#
+# Default: respond 200 on :80 so the container is healthy out of the box.
+# Replace with your own sites, e.g.:
+#   example.com {
+#       reverse_proxy 127.0.0.1:8080
+#   }
+{
+	persist_config off
+}
+
+:80 {
+	respond "Caddy on FreeBSD (daemonless)" 200
+}
+EOF
+    echo "Created default /config/Caddyfile"
+fi
+
+# Fix ownership
+chown -R bsd:bsd /config /data

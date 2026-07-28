@@ -1,0 +1,5 @@
+#!/bin/sh
+# Run as root to bind to ports 80/443
+export XDG_CONFIG_HOME=/config
+export XDG_DATA_HOME=/data
+exec /usr/local/bin/caddy run --config /config/Caddyfile --adapter caddyfile 2>&1

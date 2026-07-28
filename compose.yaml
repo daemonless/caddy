@@ -1,0 +1,42 @@
+name: caddy
+
+x-daemonless:
+  title: "Caddy"
+  icon: ":simple-caddy:"
+  category: "Network"
+  description: "Fast, multi-platform web server and reverse proxy with automatic HTTPS, written in Go."
+  upstream_url: "https://github.com/caddyserver/caddy"
+  web_url: "https://caddyserver.com"
+  freshports_url: "https://www.freshports.org/www/caddy/"
+  user: "root"
+  mlock: false
+  community: "Discord:https://discord.gg/Kb9tkhecZT"
+  appjail: true
+
+  docs:
+    env:
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory (Caddyfile)"
+      /data: "Persistent data (ACME certificates, OCSP staples)"
+    ports:
+      80: "HTTP"
+      443: "HTTPS (TCP + UDP/HTTP-3)"
+
+services:
+  caddy:
+    image: ghcr.io/daemonless/caddy:latest
+    container_name: caddy
+    restart: unless-stopped
+
+    environment:
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/caddy:/config
+      - /path/to/containers/caddy/data:/data
+
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
