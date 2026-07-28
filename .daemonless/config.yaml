@@ -3,16 +3,16 @@
 
 build:
   variants:
+    - tag: latest
+      containerfile: Containerfile
+      default: true
+      tag_desc: "Official upstream Caddy FreeBSD binary (auto-tracks latest release)."
     - tag: pkg
       containerfile: Containerfile.pkg
-      default: true
     - tag: pkg-latest
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15.1-latest"
-    - tag: latest
-      containerfile: Containerfile
-      tag_desc: "Official upstream Caddy FreeBSD binary (auto-tracks latest release)."
 
 cit:
   mode: health

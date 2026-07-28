@@ -20,9 +20,9 @@ Fast, multi-platform web server and reverse proxy with automatic HTTPS, written 
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
+| `latest` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). | Most users. Matches Linux Docker behavior. |
+| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
-| `latest` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). | Alternative build. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -93,7 +93,7 @@ volumes:
 ```
 # Makejail
 
-ARG tag=pkg
+ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/caddy:${tag}
