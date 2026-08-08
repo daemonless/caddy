@@ -71,9 +71,9 @@ services:
     name: caddy
     options:
       - container: 'boot args:--pull'
-      - expose: '80:80 proto:tcp' \
-      - expose: '443:443 proto:tcp' \
-      - expose: '443:443 proto:udp' \
+      - expose: '80:80 proto:tcp'
+      - expose: '443:443 proto:tcp'
+      - expose: '443:443 proto:udp'
     oci:
       user: root
       environment:
@@ -176,7 +176,7 @@ Access at: `http://localhost:80`
 | `443` | TCP | HTTPS (TCP + UDP/HTTP-3) |
 | `443` | UDP | HTTPS (TCP + UDP/HTTP-3) |
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `root` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.1
 
