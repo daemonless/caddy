@@ -20,9 +20,9 @@ Fast, multi-platform web server and reverse proxy with automatic HTTPS, written 
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). | Most users. Matches Linux Docker behavior. |
+| `latest` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). | Most users — recommended. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
