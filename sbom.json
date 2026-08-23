@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-21T20:32:05Z",
+  "generated": "2026-08-23T07:38:12Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
       "app_version": "v2.11.4",
       "arch": "amd64",
-      "generated": "2026-08-21T20:29:30Z",
+      "generated": "2026-08-23T07:36:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1039,7 +1039,7 @@
     "pkg-amd64": {
       "app_version": "2.11.4_2",
       "arch": "amd64",
-      "generated": "2026-08-21T20:29:42Z",
+      "generated": "2026-08-23T07:37:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2140,7 +2140,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.11.4_3",
       "arch": "amd64",
-      "generated": "2026-08-21T20:29:30Z",
+      "generated": "2026-08-23T07:37:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
