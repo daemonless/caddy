@@ -45,8 +45,11 @@ services:
       - "80:80"
       - "443:443"
       - "443:443"
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -98,6 +101,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/caddy:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -112,6 +118,8 @@ podman run -d --name caddy \
   -v /path/to/containers/caddy/data:/data \
   ghcr.io/daemonless/caddy:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -129,7 +137,34 @@ appjail oci run -Pd \
   -o fstab="/path/to/containers/caddy/data /data <pseudofs>" \
   ghcr.io/daemonless/caddy:latest caddy
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  caddy:
+    image: "ghcr.io/daemonless/caddy:latest"
+    container_name: caddy
+    network_mode: host  # jail shares host networking
+    environment:
+      - TZ=UTC
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env TZ=UTC \
+  --data-path /path/to/containers/caddy \
+  caddy ghcr.io/daemonless/caddy:latest inherit
+```
 
 ### Ansible
 
@@ -150,6 +185,8 @@ appjail oci run -Pd \
       - "/path/to/containers/caddy:/config"
       - "/path/to/containers/caddy/data:/data"
 ```
+
+Save as `caddy-deploy.yaml`, then run `ansible-playbook caddy-deploy.yaml`.
 
 Access at: `http://localhost:80`
 
