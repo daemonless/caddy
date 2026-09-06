@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-04T23:05:18Z",
+  "generated": "2026-09-06T21:23:13Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
       "app_version": "v2.11.4",
       "arch": "amd64",
-      "generated": "2026-09-04T23:04:38Z",
+      "generated": "2026-09-06T21:17:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1039,7 +1039,7 @@
     "pkg-amd64": {
       "app_version": "2.11.4_3",
       "arch": "amd64",
-      "generated": "2026-09-04T23:04:37Z",
+      "generated": "2026-09-06T21:17:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2138,9 +2138,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.11.4_3",
+      "app_version": "2.11.4_4",
       "arch": "amd64",
-      "generated": "2026-09-04T23:03:59Z",
+      "generated": "2026-09-06T21:18:04Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2380,7 +2380,7 @@
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.4_3"
+            "version": "2.11.4_4"
           },
           {
             "licenses": [
@@ -3214,7 +3214,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
