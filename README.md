@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/caddy/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/caddy/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/caddy?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/caddy/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/caddy?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/caddy)
 
 Fast, multi-platform web server and reverse proxy with automatic HTTPS, written in Go.
 
