@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-28T17:15:49Z",
+  "generated": "2026-10-01T23:30:25Z",
   "image": "caddy",
   "tags": {
     "latest-aarch64": {
-      "app_version": "v2.11.4",
+      "app_version": "v2.11.6",
       "arch": "aarch64",
-      "generated": "2026-09-28T17:14:09Z",
+      "generated": "2026-10-01T23:28:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -304,14 +304,19 @@
             "version": ""
           },
           {
+            "name": "cel.dev/cel-go",
+            "purl": "",
+            "version": "v0.32.0"
+          },
+          {
             "name": "cel.dev/expr",
             "purl": "",
-            "version": "v0.25.1"
+            "version": "v0.25.3"
           },
           {
             "name": "cloud.google.com/go/auth",
             "purl": "",
-            "version": "v0.20.0"
+            "version": "v0.23.3"
           },
           {
             "name": "cloud.google.com/go/auth/oauth2adapt",
@@ -321,7 +326,7 @@
           {
             "name": "cloud.google.com/go/compute/metadata",
             "purl": "",
-            "version": "v0.9.0"
+            "version": "v0.9.1"
           },
           {
             "name": "dario.cat/mergo",
@@ -346,12 +351,12 @@
           {
             "name": "github.com/DeRuina/timberjack",
             "purl": "",
-            "version": "v1.4.2"
+            "version": "v1.4.8"
           },
           {
             "name": "github.com/KimMachineGun/automemlimit",
             "purl": "",
-            "version": "v0.7.5"
+            "version": "v1.0.0"
           },
           {
             "name": "github.com/Masterminds/goutils",
@@ -361,7 +366,7 @@
           {
             "name": "github.com/Masterminds/semver/v3",
             "purl": "",
-            "version": "v3.4.0"
+            "version": "v3.5.0"
           },
           {
             "name": "github.com/Masterminds/sprig/v3",
@@ -371,7 +376,7 @@
           {
             "name": "github.com/alecthomas/chroma/v2",
             "purl": "",
-            "version": "v2.24.1"
+            "version": "v2.27.0"
           },
           {
             "name": "github.com/antlr4-go/antlr/v4",
@@ -389,24 +394,29 @@
             "version": "v1.0.1"
           },
           {
+            "name": "github.com/bits-and-blooms/bitset",
+            "purl": "",
+            "version": "v1.25.0"
+          },
+          {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.4"
+            "version": "v2.11.6"
           },
           {
             "name": "github.com/caddyserver/certmagic",
             "purl": "",
-            "version": "v0.25.3"
+            "version": "v0.25.6"
           },
           {
             "name": "github.com/caddyserver/zerossl",
             "purl": "",
-            "version": "v0.1.5"
+            "version": "v0.1.6"
           },
           {
             "name": "github.com/ccoveille/go-safecast/v2",
             "purl": "",
-            "version": "v2.0.0"
+            "version": "v2.0.1"
           },
           {
             "name": "github.com/cenkalti/backoff/v5",
@@ -426,12 +436,12 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/coreos/go-oidc/v3",
             "purl": "",
-            "version": "v3.17.0"
+            "version": "v3.21.0"
           },
           {
             "name": "github.com/cpuguy83/go-md2man/v2",
@@ -439,29 +449,34 @@
             "version": "v2.0.7"
           },
           {
-            "name": "github.com/dlclark/regexp2",
+            "name": "github.com/dlclark/regexp2/v2",
             "purl": "",
-            "version": "v1.12.0"
+            "version": "v2.8.0"
+          },
+          {
+            "name": "github.com/dunglas/go-urlpattern",
+            "purl": "",
+            "version": "v1.0.0"
           },
           {
             "name": "github.com/dustin/go-humanize",
             "purl": "",
-            "version": "v1.0.1"
+            "version": "v1.1.0"
           },
           {
             "name": "github.com/felixge/httpsnoop",
             "purl": "",
-            "version": "v1.0.4"
+            "version": "v1.1.0"
           },
           {
             "name": "github.com/fxamacker/cbor/v2",
             "purl": "",
-            "version": "v2.9.0"
+            "version": "v2.9.4"
           },
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.2.5"
+            "version": "v5.3.2"
           },
           {
             "name": "github.com/go-jose/go-jose/v3",
@@ -471,12 +486,12 @@
           {
             "name": "github.com/go-jose/go-jose/v4",
             "purl": "",
-            "version": "v4.1.4"
+            "version": "v4.1.5"
           },
           {
             "name": "github.com/go-logr/logr",
             "purl": "",
-            "version": "v1.4.3"
+            "version": "v1.4.4"
           },
           {
             "name": "github.com/go-logr/stdr",
@@ -484,14 +499,9 @@
             "version": "v1.2.2"
           },
           {
-            "name": "github.com/google/cel-go",
-            "purl": "",
-            "version": "v0.28.1"
-          },
-          {
             "name": "github.com/google/certificate-transparency-go",
             "purl": "",
-            "version": "v1.1.8-0.20240110162603-74a5dd331745"
+            "version": "v1.3.3"
           },
           {
             "name": "github.com/google/go-tpm",
@@ -506,7 +516,7 @@
           {
             "name": "github.com/google/s2a-go",
             "purl": "",
-            "version": "v0.1.9"
+            "version": "v0.1.10"
           },
           {
             "name": "github.com/google/uuid",
@@ -516,32 +526,32 @@
           {
             "name": "github.com/googleapis/enterprise-certificate-proxy",
             "purl": "",
-            "version": "v0.3.15"
+            "version": "v0.3.22"
           },
           {
             "name": "github.com/googleapis/gax-go/v2",
             "purl": "",
-            "version": "v2.22.0"
+            "version": "v2.25.0"
           },
           {
             "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
             "purl": "",
-            "version": "v2.28.0"
+            "version": "v2.30.0"
           },
           {
             "name": "github.com/huandu/xstrings",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.6.1"
           },
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.18.6"
+            "version": "v1.20.1"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
             "purl": "",
-            "version": "v2.3.0"
+            "version": "v2.4.0"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -556,12 +566,12 @@
           {
             "name": "github.com/mattn/go-colorable",
             "purl": "",
-            "version": "v0.1.14"
+            "version": "v0.1.15"
           },
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.20"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/mgutz/ansi",
@@ -571,12 +581,12 @@
           {
             "name": "github.com/mholt/acmez/v3",
             "purl": "",
-            "version": "v3.1.6"
+            "version": "v3.1.7"
           },
           {
             "name": "github.com/miekg/dns",
             "purl": "",
-            "version": "v1.1.72"
+            "version": "v1.1.73"
           },
           {
             "name": "github.com/mitchellh/copystructure",
@@ -599,6 +609,11 @@
             "version": "v0.0.0-20191010083416-a7dc8b61c822"
           },
           {
+            "name": "github.com/nlnwa/whatwg-url",
+            "purl": "",
+            "version": "v0.6.2"
+          },
+          {
             "name": "github.com/pbnjay/memory",
             "purl": "",
             "version": "v0.0.0-20210728143218-7b4eea64cf58"
@@ -606,7 +621,7 @@
           {
             "name": "github.com/pires/go-proxyproto",
             "purl": "",
-            "version": "v0.12.0"
+            "version": "v0.15.0"
           },
           {
             "name": "github.com/pkg/errors",
@@ -616,17 +631,17 @@
           {
             "name": "github.com/prometheus/client_golang",
             "purl": "",
-            "version": "v1.23.2"
+            "version": "v1.24.1"
           },
           {
             "name": "github.com/prometheus/client_model",
             "purl": "",
-            "version": "v0.6.2"
+            "version": "v0.6.3"
           },
           {
             "name": "github.com/prometheus/common",
             "purl": "",
-            "version": "v0.67.5"
+            "version": "v0.71.0"
           },
           {
             "name": "github.com/prometheus/otlptranslator",
@@ -636,7 +651,7 @@
           {
             "name": "github.com/prometheus/procfs",
             "purl": "",
-            "version": "v0.20.1"
+            "version": "v0.22.0"
           },
           {
             "name": "github.com/quic-go/qpack",
@@ -646,7 +661,7 @@
           {
             "name": "github.com/quic-go/quic-go",
             "purl": "",
-            "version": "v0.59.1"
+            "version": "v0.63.0"
           },
           {
             "name": "github.com/rs/xid",
@@ -671,12 +686,12 @@
           {
             "name": "github.com/sirupsen/logrus",
             "purl": "",
-            "version": "v1.9.4"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/slackhq/nebula",
             "purl": "",
-            "version": "v1.10.3"
+            "version": "v1.11.2"
           },
           {
             "name": "github.com/smallstep/certificates",
@@ -691,12 +706,12 @@
           {
             "name": "github.com/smallstep/go-attestation",
             "purl": "",
-            "version": "v0.4.4-0.20241119153605-2306d5b464ca"
+            "version": "v0.4.4-0.20260814222900-a849f4e2cd68"
           },
           {
             "name": "github.com/smallstep/linkedca",
             "purl": "",
-            "version": "v0.25.0"
+            "version": "v0.26.0"
           },
           {
             "name": "github.com/smallstep/nosql",
@@ -706,12 +721,12 @@
           {
             "name": "github.com/smallstep/pkcs7",
             "purl": "",
-            "version": "v0.2.1"
+            "version": "v0.2.3"
           },
           {
             "name": "github.com/smallstep/scep",
             "purl": "",
-            "version": "v0.0.0-20250318231241-a25cabb69492"
+            "version": "v0.0.0-20260331191114-261f960a40d1"
           },
           {
             "name": "github.com/smallstep/truststore",
@@ -721,7 +736,7 @@
           {
             "name": "github.com/spf13/cast",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.0"
           },
           {
             "name": "github.com/spf13/cobra",
@@ -751,7 +766,7 @@
           {
             "name": "github.com/yuin/goldmark",
             "purl": "",
-            "version": "v1.8.2"
+            "version": "v1.8.6"
           },
           {
             "name": "github.com/yuin/goldmark-highlighting/v2",
@@ -766,7 +781,7 @@
           {
             "name": "go.etcd.io/bbolt",
             "purl": "",
-            "version": "v1.4.3"
+            "version": "v1.5.0"
           },
           {
             "name": "go.opentelemetry.io/auto/sdk",
@@ -776,142 +791,142 @@
           {
             "name": "go.opentelemetry.io/contrib/bridges/prometheus",
             "purl": "",
-            "version": "v0.68.0"
+            "version": "v0.71.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/exporters/autoexport",
             "purl": "",
-            "version": "v0.68.0"
+            "version": "v0.71.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
             "purl": "",
-            "version": "v0.68.0"
+            "version": "v0.71.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/autoprop",
             "purl": "",
-            "version": "v0.68.0"
+            "version": "v0.71.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/aws",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/b3",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/jaeger",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/ot",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
             "purl": "",
-            "version": "v0.19.0"
+            "version": "v0.22.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
             "purl": "",
-            "version": "v0.19.0"
+            "version": "v0.22.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/prometheus",
             "purl": "",
-            "version": "v0.65.0"
+            "version": "v0.68.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/stdout/stdoutlog",
             "purl": "",
-            "version": "v0.19.0"
+            "version": "v0.22.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/stdout/stdoutmetric",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/stdout/stdouttrace",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/log",
             "purl": "",
-            "version": "v0.19.0"
+            "version": "v0.22.0"
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
             "purl": "",
-            "version": "v0.19.0"
+            "version": "v0.22.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
             "purl": "",
-            "version": "v1.43.0"
+            "version": "v1.46.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
             "purl": "",
-            "version": "v1.10.0"
+            "version": "v1.11.0"
           },
           {
             "name": "go.step.sm/crypto",
             "purl": "",
-            "version": "v0.81.0"
+            "version": "v0.91.0"
           },
           {
             "name": "go.uber.org/automaxprocs",
@@ -934,89 +949,84 @@
             "version": "v0.3.0"
           },
           {
-            "name": "go.yaml.in/yaml/v2",
-            "purl": "",
-            "version": "v2.4.4"
-          },
-          {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.52.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/crypto/x509roots/fallback",
             "purl": "",
-            "version": "v0.0.0-20260213171211-a408498e5541"
+            "version": "v0.0.0-20260929172509-b39ff6d641ec"
           },
           {
             "name": "golang.org/x/exp",
             "purl": "",
-            "version": "v0.0.0-20251023183803-a4bb9ffd2546"
+            "version": "v0.0.0-20260908205506-85c1c2202aba"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.55.0"
+            "version": "v0.59.0"
           },
           {
             "name": "golang.org/x/oauth2",
             "purl": "",
-            "version": "v0.36.0"
+            "version": "v0.37.0"
           },
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.20.0"
+            "version": "v0.23.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.45.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/term",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.46.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.42.0"
           },
           {
             "name": "golang.org/x/time",
             "purl": "",
-            "version": "v0.15.0"
+            "version": "v0.16.0"
           },
           {
             "name": "google.golang.org/api",
             "purl": "",
-            "version": "v0.277.0"
+            "version": "v0.298.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
             "purl": "",
-            "version": "v0.0.0-20260406210006-6f92a3bedf2d"
+            "version": "v0.0.0-20260921155816-b14227669459"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
             "purl": "",
-            "version": "v0.0.0-20260427160629-7cedc36a6bc4"
+            "version": "v0.0.0-20260921155816-b14227669459"
           },
           {
             "name": "google.golang.org/grpc",
             "purl": "",
-            "version": "v1.81.0"
+            "version": "v1.83.2"
           },
           {
             "name": "google.golang.org/protobuf",
             "purl": "",
-            "version": "v1.36.11"
+            "version": "v1.36.12"
           },
           {
             "name": "gopkg.in/yaml.v3",
@@ -1026,7 +1036,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.3"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
@@ -1040,20 +1050,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 41,
-        "go": 146,
+        "go": 148,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 187
+        "total": 189
       }
     },
     "pkg-aarch64": {
       "app_version": "2.11.4_3",
       "arch": "aarch64",
-      "generated": "2026-09-28T17:14:14Z",
+      "generated": "2026-10-01T23:28:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1300,7 +1310,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -2168,7 +2178,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.11.4_4",
       "arch": "aarch64",
-      "generated": "2026-09-28T17:14:19Z",
+      "generated": "2026-10-01T23:28:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2415,7 +2425,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
