@@ -40,8 +40,8 @@ services:
     environment:
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/caddy:/config"
-      - "/path/to/containers/caddy/data:/data"
+      - "/containers/caddy:/config"
+      - "/containers/caddy/data:/data"
     ports:
       - "80:80"
       - "443:443"
@@ -87,9 +87,9 @@ services:
       - caddy_data: /data
 volumes:
   caddy:
-    device: '/path/to/containers/caddy'
+    device: '/containers/caddy'
   caddy_data:
-    device: '/path/to/containers/caddy/data'
+    device: '/containers/caddy/data'
 ```
 
 **Makejail**:
@@ -112,47 +112,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name caddy \
-  -p 80:80 \
-  -p 443:443 \
-  -p 443:443 \
-  -e TZ=UTC \
-  -v /path/to/containers/caddy:/config \
-  -v /path/to/containers/caddy/data:/data \
-  ghcr.io/daemonless/caddy:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="80:80 proto:tcp" \
-  -o expose="443:443 proto:tcp" \
-  -o expose="443:443 proto:udp" \
-  -e TZ=UTC \
-  -o fstab="/path/to/containers/caddy /config <pseudofs>" \
-  -o fstab="/path/to/containers/caddy/data /data <pseudofs>" \
-  ghcr.io/daemonless/caddy:latest caddy
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -168,41 +127,11 @@ services:
     environment:
       - TZ=UTC
     volumes:
-      - "/path/to/containers/caddy:/config"
-      - "/path/to/containers/caddy/data:/data"
+      - "/containers/caddy:/config"
+      - "/containers/caddy/data:/data"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env TZ=UTC \
-  --volume /path/to/containers/caddy /config \
-  --volume /path/to/containers/caddy/data /data \
-  caddy ghcr.io/daemonless/caddy:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy caddy
-  containers.podman.podman_container:
-    name: caddy
-    image: "ghcr.io/daemonless/caddy:latest"
-    state: started
-    restart_policy: always
-    env:
-      TZ: "UTC"
-    ports:
-      - "80:80"
-      - "443:443"
-      - "443:443"
-    volumes:
-      - "/path/to/containers/caddy:/config"
-      - "/path/to/containers/caddy/data:/data"
-```
-
-Save as `caddy-deploy.yaml`, then run `ansible-playbook caddy-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:80`
 
