@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-01T23:10:31Z",
+  "generated": "2026-10-03T13:26:28Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
-      "app_version": "v2.11.6",
+      "app_version": "v2.11.7",
       "arch": "amd64",
-      "generated": "2026-10-01T23:08:58Z",
+      "generated": "2026-10-03T13:25:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -401,7 +401,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.6"
+            "version": "v2.11.7"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -457,6 +457,11 @@
             "name": "github.com/dunglas/go-urlpattern",
             "purl": "",
             "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/dunglas/httpsfv",
+            "purl": "",
+            "version": "v1.1.1"
           },
           {
             "name": "github.com/dustin/go-humanize",
@@ -1050,20 +1055,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 41,
-        "go": 148,
+        "go": 149,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 189
+        "total": 190
       }
     },
     "pkg-amd64": {
       "app_version": "2.11.4_3",
       "arch": "amd64",
-      "generated": "2026-10-01T23:08:48Z",
+      "generated": "2026-10-03T13:25:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2178,7 +2183,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.11.4_4",
       "arch": "amd64",
-      "generated": "2026-10-01T23:08:52Z",
+      "generated": "2026-10-03T13:25:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
