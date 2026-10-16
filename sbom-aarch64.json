@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14T18:32:37Z",
+  "generated": "2026-10-16T21:30:34Z",
   "image": "caddy",
   "tags": {
     "latest-aarch64": {
       "app_version": "v2.11.7",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:31:07Z",
+      "generated": "2026-10-16T21:28:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1066,9 +1066,9 @@
       }
     },
     "pkg-aarch64": {
-      "app_version": "2.11.4_4",
+      "app_version": "2.11.4_5",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:31:10Z",
+      "generated": "2026-10-16T21:28:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1315,14 +1315,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.4_4"
+            "version": "2.11.4_5"
           },
           {
             "licenses": [
@@ -2156,7 +2156,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.8"
+            "version": "v1.26.9"
           }
         ],
         "java": [],
@@ -2183,7 +2183,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.11.7_1",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:31:13Z",
+      "generated": "2026-10-16T21:29:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
