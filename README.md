@@ -22,6 +22,7 @@ Fast, multi-platform web server and reverse proxy with automatic HTTPS, written 
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). | Most users — recommended. |
+| `latest-rfc2136` | Official upstream Caddy FreeBSD binary (auto-tracks latest release). Contains the caddy-dns/rfc2136 plugin. | Alternative build. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
@@ -132,8 +133,7 @@ services:
 ```
 
 Save as `bastille-compose.yml`, then run `bastille up`.
-
-Access at: `http://localhost:80`
+Open `http://<server>:80` from another machine (the server's own browser can't use a published port).
 
 ## Parameters
 

@@ -10,6 +10,12 @@ build:
       containerfile: Containerfile
       default: true
       tag_desc: "Official upstream Caddy FreeBSD binary (auto-tracks latest release)."
+    - tag: latest-rfc2136
+      containerfile: Containerfile.extras
+      tag_desc: "Official upstream Caddy FreeBSD binary (auto-tracks latest release). Contains the caddy-dns/rfc2136 plugin."
+      args:
+        EXTRA_PLUGINS:
+          - github.com/caddy-dns/rfc2136
     - tag: pkg
       containerfile: Containerfile.pkg
     - tag: pkg-latest
