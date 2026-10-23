@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T08:05:54Z",
+  "generated": "2026-10-23T18:19:40Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
       "app_version": "v2.11.7",
       "arch": "amd64",
-      "generated": "2026-10-23T07:54:11Z",
+      "generated": "2026-10-23T18:02:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1047,7 +1047,7 @@
     "latest-rfc2136-amd64": {
       "app_version": "v2.11.7",
       "arch": "amd64",
-      "generated": "2026-10-23T07:54:18Z",
+      "generated": "2026-10-23T18:07:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2099,7 +2099,7 @@
     "pkg-amd64": {
       "app_version": "2.11.4_5",
       "arch": "amd64",
-      "generated": "2026-10-23T07:50:58Z",
+      "generated": "2026-10-23T18:06:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3191,9 +3191,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.11.7_1",
+      "app_version": "2.11.7_2",
       "arch": "amd64",
-      "generated": "2026-10-23T07:49:23Z",
+      "generated": "2026-10-23T18:02:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3440,14 +3440,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.7_1"
+            "version": "2.11.7_2"
           },
           {
             "licenses": [
@@ -4275,7 +4275,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
