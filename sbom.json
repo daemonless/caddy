@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T18:19:40Z",
+  "generated": "2026-10-23T22:14:15Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
       "app_version": "v2.11.7",
       "arch": "amd64",
-      "generated": "2026-10-23T18:02:20Z",
+      "generated": "2026-10-23T22:05:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -1047,7 +1047,7 @@
     "latest-rfc2136-amd64": {
       "app_version": "v2.11.7",
       "arch": "amd64",
-      "generated": "2026-10-23T18:07:37Z",
+      "generated": "2026-10-23T22:01:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1294,7 +1294,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -2097,9 +2097,9 @@
       }
     },
     "pkg-amd64": {
-      "app_version": "2.11.4_5",
+      "app_version": "2.11.4_6",
       "arch": "amd64",
-      "generated": "2026-10-23T18:06:02Z",
+      "generated": "2026-10-23T22:13:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2346,14 +2346,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.4_5"
+            "version": "2.11.4_6"
           },
           {
             "licenses": [
@@ -3166,7 +3166,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           }
         ],
         "java": [],
@@ -3193,7 +3193,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.11.7_2",
       "arch": "amd64",
-      "generated": "2026-10-23T18:02:12Z",
+      "generated": "2026-10-23T22:06:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
