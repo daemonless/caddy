@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
@@ -61,11 +61,10 @@ RUN mkdir -p /config /data && \
     chown -R bsd:bsd /config /data
 
 COPY root/ /
+RUN chmod +x /daemonless/libexec/caddy /daemonless/init.d/*
 
-RUN chmod +x /etc/services.d/caddy/run /etc/cont-init.d/* 2>/dev/null || true
-
-RUN mkdir -p /run/s6/services/caddy && \
-    ln -sf /etc/services.d/caddy/run /run/s6/services/caddy/run
+ENV DAEMONLESS_USER=root
+CMD ["/daemonless/libexec/caddy"]
 
 # Expose (443/udp = HTTP/3; 2019 = admin API, localhost only)
 EXPOSE 80 443 2019
