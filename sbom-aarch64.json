@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-03T08:47:44Z",
+  "generated": "2026-11-04T08:32:38Z",
   "image": "caddy",
   "tags": {
     "latest-aarch64": {
-      "app_version": "v2.11.7",
+      "app_version": "v2.11.8",
       "arch": "aarch64",
-      "generated": "2026-11-03T08:45:15Z",
+      "generated": "2026-11-04T08:30:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -380,7 +380,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.7"
+            "version": "v2.11.8"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -460,7 +460,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.2"
+            "version": "v5.4.0"
           },
           {
             "name": "github.com/go-jose/go-jose/v3",
@@ -945,7 +945,7 @@
           {
             "name": "golang.org/x/crypto/x509roots/fallback",
             "purl": "",
-            "version": "v0.0.0-20260929172509-b39ff6d641ec"
+            "version": "v0.0.0-20261030153154-30a33513ff6d"
           },
           {
             "name": "golang.org/x/exp",
@@ -955,7 +955,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1020,7 +1020,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.8"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
@@ -1045,9 +1045,9 @@
       }
     },
     "latest-rfc2136-aarch64": {
-      "app_version": "v2.11.7",
+      "app_version": "v2.11.8",
       "arch": "aarch64",
-      "generated": "2026-11-03T08:45:20Z",
+      "generated": "2026-11-04T08:30:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1427,7 +1427,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.7"
+            "version": "v2.11.8"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -1507,7 +1507,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.2"
+            "version": "v5.4.0"
           },
           {
             "name": "github.com/go-jose/go-jose/v3",
@@ -1997,7 +1997,7 @@
           {
             "name": "golang.org/x/crypto/x509roots/fallback",
             "purl": "",
-            "version": "v0.0.0-20260929172509-b39ff6d641ec"
+            "version": "v0.0.0-20261030153154-30a33513ff6d"
           },
           {
             "name": "golang.org/x/exp",
@@ -2007,7 +2007,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -2099,7 +2099,7 @@
     "pkg-aarch64": {
       "app_version": "2.11.4_6",
       "arch": "aarch64",
-      "generated": "2026-11-03T08:45:25Z",
+      "generated": "2026-11-04T08:30:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3193,7 +3193,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.11.7_2",
       "arch": "aarch64",
-      "generated": "2026-11-03T08:45:30Z",
+      "generated": "2026-11-04T08:30:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
