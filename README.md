@@ -46,7 +46,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
-      - "443:443"
+      - "443:443/udp"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
     restart: always
 ```
@@ -159,7 +159,7 @@ Open `http://<server>:80` from another machine (the server's own browser can't u
 | `443` | UDP | HTTPS (TCP + UDP/HTTP-3) |
 
 **Architectures:** amd64, aarch64
-**User:** `root` (UID/GID via PUID/PGID, defaults to 1000:1000)
+**User:** `root` — the service process stays root by design, not dropped to `bsd`
 **Base:** FreeBSD 15.1
 
 ---

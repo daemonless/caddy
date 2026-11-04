@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T22:14:15Z",
+  "generated": "2026-11-04T08:16:35Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
-      "app_version": "v2.11.7",
+      "app_version": "v2.11.8",
       "arch": "amd64",
-      "generated": "2026-10-23T22:05:34Z",
+      "generated": "2026-11-04T08:15:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -380,7 +380,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.7"
+            "version": "v2.11.8"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -460,7 +460,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.2"
+            "version": "v5.4.0"
           },
           {
             "name": "github.com/go-jose/go-jose/v3",
@@ -945,7 +945,7 @@
           {
             "name": "golang.org/x/crypto/x509roots/fallback",
             "purl": "",
-            "version": "v0.0.0-20260929172509-b39ff6d641ec"
+            "version": "v0.0.0-20261030153154-30a33513ff6d"
           },
           {
             "name": "golang.org/x/exp",
@@ -955,7 +955,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1020,7 +1020,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.8"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
@@ -1045,9 +1045,9 @@
       }
     },
     "latest-rfc2136-amd64": {
-      "app_version": "v2.11.7",
+      "app_version": "v2.11.8",
       "arch": "amd64",
-      "generated": "2026-10-23T22:01:01Z",
+      "generated": "2026-11-04T08:15:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1231,7 +1231,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1294,7 +1294,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1427,7 +1427,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.7"
+            "version": "v2.11.8"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -1507,7 +1507,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.2"
+            "version": "v5.4.0"
           },
           {
             "name": "github.com/go-jose/go-jose/v3",
@@ -1997,7 +1997,7 @@
           {
             "name": "golang.org/x/crypto/x509roots/fallback",
             "purl": "",
-            "version": "v0.0.0-20260929172509-b39ff6d641ec"
+            "version": "v0.0.0-20261030153154-30a33513ff6d"
           },
           {
             "name": "golang.org/x/exp",
@@ -2007,7 +2007,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -2099,7 +2099,7 @@
     "pkg-amd64": {
       "app_version": "2.11.4_6",
       "arch": "amd64",
-      "generated": "2026-10-23T22:13:43Z",
+      "generated": "2026-11-04T08:15:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2283,7 +2283,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -2346,7 +2346,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -3193,7 +3193,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.11.7_2",
       "arch": "amd64",
-      "generated": "2026-10-23T22:06:54Z",
+      "generated": "2026-11-04T08:16:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3377,7 +3377,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -3440,7 +3440,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
