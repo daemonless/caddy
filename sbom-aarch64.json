@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-05T08:12:15Z",
+  "generated": "2026-11-05T08:39:10Z",
   "image": "caddy",
   "tags": {
     "latest-aarch64": {
       "app_version": "v2.11.9",
       "arch": "aarch64",
-      "generated": "2026-11-05T08:09:41Z",
+      "generated": "2026-11-05T08:36:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1047,7 +1047,7 @@
     "latest-rfc2136-aarch64": {
       "app_version": "v2.11.9",
       "arch": "aarch64",
-      "generated": "2026-11-05T08:09:46Z",
+      "generated": "2026-11-05T08:36:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2099,7 +2099,7 @@
     "pkg-aarch64": {
       "app_version": "2.11.4_6",
       "arch": "aarch64",
-      "generated": "2026-11-05T08:09:51Z",
+      "generated": "2026-11-05T08:36:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3193,7 +3193,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.11.7_2",
       "arch": "aarch64",
-      "generated": "2026-11-05T08:09:56Z",
+      "generated": "2026-11-05T08:36:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
