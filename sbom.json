@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T11:59:58Z",
+  "generated": "2026-11-05T08:11:34Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
-      "app_version": "v2.11.8",
+      "app_version": "v2.11.9",
       "arch": "amd64",
-      "generated": "2026-11-04T11:59:25Z",
+      "generated": "2026-11-05T08:09:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -380,7 +380,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.8"
+            "version": "v2.11.9"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -470,7 +470,7 @@
           {
             "name": "github.com/go-jose/go-jose/v4",
             "purl": "",
-            "version": "v4.1.5"
+            "version": "v4.1.6"
           },
           {
             "name": "github.com/go-logr/logr",
@@ -1045,9 +1045,9 @@
       }
     },
     "latest-rfc2136-amd64": {
-      "app_version": "v2.11.8",
+      "app_version": "v2.11.9",
       "arch": "amd64",
-      "generated": "2026-11-04T11:59:10Z",
+      "generated": "2026-11-05T08:11:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1427,7 +1427,7 @@
           {
             "name": "github.com/caddyserver/caddy/v2",
             "purl": "",
-            "version": "v2.11.8"
+            "version": "v2.11.9"
           },
           {
             "name": "github.com/caddyserver/certmagic",
@@ -1517,7 +1517,7 @@
           {
             "name": "github.com/go-jose/go-jose/v4",
             "purl": "",
-            "version": "v4.1.5"
+            "version": "v4.1.6"
           },
           {
             "name": "github.com/go-logr/logr",
@@ -2099,7 +2099,7 @@
     "pkg-amd64": {
       "app_version": "2.11.4_6",
       "arch": "amd64",
-      "generated": "2026-11-04T11:59:16Z",
+      "generated": "2026-11-05T08:09:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3193,7 +3193,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.11.7_2",
       "arch": "amd64",
-      "generated": "2026-11-04T11:59:03Z",
+      "generated": "2026-11-05T08:09:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
