@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T08:04:47Z",
+  "generated": "2026-11-14T21:59:21Z",
   "image": "caddy",
   "tags": {
     "latest-amd64": {
       "app_version": "v2.11.9",
       "arch": "amd64",
-      "generated": "2026-11-10T08:02:08Z",
+      "generated": "2026-11-14T21:56:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1047,7 +1047,7 @@
     "latest-rfc2136-amd64": {
       "app_version": "v2.11.9",
       "arch": "amd64",
-      "generated": "2026-11-10T08:04:07Z",
+      "generated": "2026-11-14T21:54:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2099,7 +2099,7 @@
     "pkg-amd64": {
       "app_version": "2.11.9",
       "arch": "amd64",
-      "generated": "2026-11-10T08:02:25Z",
+      "generated": "2026-11-14T21:55:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3206,9 +3206,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.11.9",
+      "app_version": "2.11.9_1",
       "arch": "amd64",
-      "generated": "2026-11-10T08:01:51Z",
+      "generated": "2026-11-14T21:54:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3462,7 +3462,7 @@
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.9"
+            "version": "2.11.9_1"
           },
           {
             "licenses": [
@@ -4290,7 +4290,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           }
         ],
         "java": [],
