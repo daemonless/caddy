@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-15T09:44:38Z",
+  "generated": "2026-11-17T08:57:15Z",
   "image": "caddy",
   "tags": {
     "latest-aarch64": {
       "app_version": "v2.11.9",
       "arch": "aarch64",
-      "generated": "2026-11-15T09:41:40Z",
+      "generated": "2026-11-17T08:54:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,7 +273,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           }
         ],
         "go": [
@@ -1047,7 +1047,7 @@
     "latest-rfc2136-aarch64": {
       "app_version": "v2.11.9",
       "arch": "aarch64",
-      "generated": "2026-11-15T09:41:42Z",
+      "generated": "2026-11-17T08:54:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1315,7 +1315,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           }
         ],
         "go": [
@@ -2097,9 +2097,9 @@
       }
     },
     "pkg-aarch64": {
-      "app_version": "2.11.9",
+      "app_version": "2.11.9_1",
       "arch": "aarch64",
-      "generated": "2026-11-15T09:41:46Z",
+      "generated": "2026-11-17T08:54:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2353,7 +2353,7 @@
               "APACHE20"
             ],
             "name": "caddy",
-            "version": "2.11.9"
+            "version": "2.11.9_1"
           },
           {
             "licenses": [
@@ -2374,7 +2374,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           }
         ],
         "go": [
@@ -3181,7 +3181,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.10"
+            "version": "v1.26.11"
           }
         ],
         "java": [],
@@ -3208,7 +3208,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.11.9",
       "arch": "aarch64",
-      "generated": "2026-11-15T09:41:50Z",
+      "generated": "2026-11-17T08:54:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
